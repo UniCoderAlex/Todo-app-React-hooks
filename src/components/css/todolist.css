@@ -1,0 +1,80 @@
+.main-input {
+    background-color: #202421;
+    border: none;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn-submit {
+    width: 120px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: #09d3ac;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 10px 10px 10px 10px;
+    transition: all .25s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #282c34;
+    border: 2px solid #09d3ac;
+    color: #09d3ac;
+
+}
+
+.btn-delete {
+    width: 80px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: #1e2024;
+    border: 2px solid red;
+    color: red;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn-complete {
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: #1e2024;
+    border: 2px solid #09d3ac;
+    color: #09d3ac;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+.input-form {
+    margin-top: 20vh;
+    display: inline-block;
+}
+
+.items {
+    padding-top: 5vh;
+    
+}
+
+.items:last-child {
+    padding-bottom: 5vh;
+}
+
+.container {
+    background-color: #1e2024;
+    margin-left: 20vw;
+    margin-right:20vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 15px 15px 15px 15px;
+
+}
